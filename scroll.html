@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Scroll Example</title>
+
+        <meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Bootstrap files -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"></script> 
+
+
+    <style>
+      body{
+          position: relative;
+          color: rgb(61, 40, 15);
+      
+      }
+      #section1{
+        height: 500px;
+        padding-top: 40px;
+        color: aqua;
+      }
+      #section2{
+        height: 500px;
+        padding-top: 40px;
+        color: rgb(155, 44, 44);
+      }
+      #section3{
+        height: 500px;
+        padding-top: 40px;
+        color: rgb(38, 214, 32);
+      }
+
+      #section4{
+        height: 500px;
+        padding-top: 40px;
+        color: rgb(185, 35, 123);
+      }
+  </style>
+
+    </head>
+
+    <!--Start body-->
+    <body  data-spy="scroll" data-target=".navbar"> 
+      <!--Start Navbar-->
+     <nav class="navbar navbar-inverse navbaer-fixed-top">
+       <!--NavBar all content-->
+         <div class="container-fluid">
+           <!--Navbar Header-->
+          <div class="navbar-header">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">My Website</a>
+          </div>
+          <!--NavBar Body Contect-->
+         <div class="collapse navbar-collapse" id="nav1">
+          <ul class="nav navbar-nav">
+           <li ><a href="#section1">Link 1</a></li>
+           <li ><a href="#section2">Link 2</a></li>
+           <li ><a href="#section3">Link 3</a></li>
+           <li ><a href="#section4">Link 4</a></li>
+          </ul>
+         </div>
+         </div>
+     </nav>
+
+     <!--Start Content-->
+     <div class="container-fluid" id="section1">
+      <h1>Content one</h1>   
+      <p>Content1</p>
+     </div>
+     <div class="container-fluid" id="section2">
+      <h1>Content one</h1>   
+      <p>Content1</p>
+     </div>
+     <div class="container-fluid" id="section3">
+      <h1>Content one</h1>   
+      <p>Content1</p>
+     </div>
+     <div class="container-fluid" id="section4">
+      <h1>Content one</h1>  
+      <p>Content1</p> 
+     </div>
+    </body>
+</html>
